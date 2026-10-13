@@ -1,0 +1,749 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Kit de Empleabilidad Digital | Miguel Troncoso</title>
+  <meta name="description" content="Plan de busqueda laboral, CV, perfil de LinkedIn, elevator pitch y preparacion de entrevistas para un desarrollador web junior Python/Django.">
+  <meta name="author" content="Miguel Troncoso">
+  <meta name="theme-color" content="#0b0f1f">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Kit de Empleabilidad Digital | Miguel Troncoso">
+  <meta property="og:description" content="Plan de busqueda laboral, CV, LinkedIn, elevator pitch y banco de respuestas STAR para un perfil junior tech.">
+  <meta property="og:url" content="https://migueltroncoso.github.io/modulo_9/">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+  <header class="site-header" id="site-header">
+    <div class="container header__inner">
+      <a class="brand" href="#inicio" aria-label="Inicio">
+        <span class="brand__mark" aria-hidden="true">MT</span>
+        <span class="brand__text">Kit de Empleabilidad<small>Miguel Troncoso · Módulo 9</small></span>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Navegación principal">
+        <ul>
+          <li><a href="#perfil">Perfil</a></li>
+          <li><a href="#plan">Plan</a></li>
+          <li><a href="#cv">CV</a></li>
+          <li><a href="#linkedin">LinkedIn</a></li>
+          <li><a href="#entrevistas">Entrevistas</a></li>
+          <li><a href="#star">Banco STAR</a></li>
+          <li><a href="#pitch">Pitch</a></li>
+          <li><a class="nav-cta" href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+  </header>
+
+  <main id="contenido">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio">
+      <div class="container hero__grid">
+        <div class="hero__content reveal">
+          <p class="eyebrow"><span class="dot" aria-hidden="true"></span> Módulo 9 · Empleabilidad en la industria digital</p>
+          <h1 class="hero__title">Mi plan de <span class="grad">búsqueda laboral</span> en tecnología</h1>
+          <p class="hero__role">Desarrollador Web Junior &mdash; <strong>Python · Django · SQL</strong></p>
+          <p class="hero__pitch">
+            Este kit reúne las herramientas con las que estoy buscando mi primera oportunidad
+            profesional: perfil y plan de búsqueda, CV adaptado, perfil de LinkedIn optimizado,
+            preparación de entrevistas y un banco de respuestas STAR construido con mis proyectos.
+          </p>
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="#plan"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg>Ver el plan</a>
+            <a class="btn btn--ghost" href="docs/CV_Miguel_Troncoso.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l5 5v13H7zM14 3v5h5"/></svg>Descargar CV</a>
+            <a class="btn btn--ghost" href="docs/Plan_Busqueda_Laboral_Miguel_Troncoso.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 21h14"/></svg>Plan en PDF</a>
+          </div>
+          <ul class="hero__links">
+            <li><a href="https://github.com/MiguelTroncoso" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.03a9.5 9.5 0 0 1 5 0c1.91-1.3 2.75-1.03 2.75-1.03.55 1.38.2 2.4.1 2.65.64.7 1.03 1.6 1.03 2.69 0 3.85-2.34 4.7-4.57 4.95.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/miguel-troncoso/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm7 0h3.8v1.7h.05c.53-.95 1.83-1.95 3.77-1.95 4.03 0 4.78 2.5 4.78 5.75V21h-4v-5.6c0-1.34-.03-3.06-1.9-3.06-1.9 0-2.2 1.45-2.2 2.96V21h-4V9Z"/></svg>LinkedIn</a></li>
+            <li><a href="mailto:miguel.troncoso36@gmail.com"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Zm8 7.2 8-4.7V7l-8 4.7L4 7v.5l8 4.7Z"/></svg>Email</a></li>
+          </ul>
+        </div>
+
+        <aside class="hero__card reveal">
+          <div class="pitch-card">
+            <span class="badge-open">#OpenToWork</span>
+            <h2>Elevator Pitch · 30 segundos</h2>
+            <p class="pitch-card__text" id="pitch-30">
+              Hola, soy Miguel Troncoso, desarrollador web junior especializado en Python y Django.
+              En mi formación construí tres productos completos: una billetera digital con 36 pruebas
+              automatizadas, una plataforma de gestión de proyectos y un e-commerce con persistencia
+              en SQLite. Me enfoco en el backend y en la integridad de los datos, y busco mi primera
+              oportunidad como desarrollador junior para seguir creciendo y aportar a un equipo de producto.
+            </p>
+            <button class="btn btn--copy" data-copy="#pitch-30">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 9h10v10H9zM5 5h10v2H7v8H5z"/></svg>
+              Copiar pitch
+            </button>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============ PERFIL ============ -->
+    <section class="section" id="perfil">
+      <div class="container">
+        <header class="section__header reveal">
+          <p class="eyebrow">Perfil profesional</p>
+          <h2>Quién soy y qué busco</h2>
+          <p class="section__lead">
+            Un perfil junior con foco en backend, competencias técnicas verificables y evidencia
+            concreta de proyectos. Esto es lo que un reclutador debería saber en el primer minuto.
+          </p>
+        </header>
+
+        <div class="perfil">
+          <article class="card reveal">
+            <h3>Resumen</h3>
+            <p>
+              Desarrollador web junior formado en un bootcamp intensivo. Construyo aplicaciones con
+              <strong>Python y Django</strong>: modelo de datos, lógica de negocio, CRUD,
+              autenticación, panel administrativo y pruebas automatizadas. Me interesa la integridad
+              de los datos y documentar cada decisión técnica.
+            </p>
+            <ul class="mini-list">
+              <li><strong>Rol objetivo:</strong> Desarrollador Backend / Web Junior (Python · Django).</li>
+              <li><strong>Nivel:</strong> Trainee / Junior, 0 a 2 años de experiencia.</li>
+              <li><strong>Modalidad:</strong> Remoto o híbrido, Santiago de Chile.</li>
+              <li><strong>Disponibilidad:</strong> inmediata, jornada completa.</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <h3>Competencias técnicas</h3>
+            <div class="chip-group">
+              <span>Python 3</span><span>Django 6</span><span>ORM</span><span>Vistas basadas en clases</span>
+              <span>SQL</span><span>SQLite</span><span>PostgreSQL</span><span>Migraciones</span>
+              <span>HTML5</span><span>CSS3</span><span>Bootstrap 5</span><span>Git</span>
+              <span>GitHub</span><span>Testing automatizado</span><span>Flask</span><span>APIs REST</span>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <h3>Habilidades blandas</h3>
+            <ul class="mini-list">
+              <li><strong>Comunicación:</strong> explico decisiones técnicas en lenguaje claro.</li>
+              <li><strong>Organización:</strong> planifico con checklists y priorizo por impacto.</li>
+              <li><strong>Trabajo en equipo:</strong> doy y recibo feedback con apertura.</li>
+              <li><strong>Autonomía:</strong> aprendo herramientas nuevas por mi cuenta.</li>
+              <li><strong>Resiliencia:</strong> sostengo procesos largos como una búsqueda laboral.</li>
+            </ul>
+          </article>
+
+          <article class="card card--accent reveal">
+            <h3>Propuesta de valor</h3>
+            <p>
+              Aporto un perfil junior que ya trabajó el ciclo completo de un producto: modelo de
+              datos, lógica de negocio, interfaz y pruebas. No llego solo con teoría: llego con
+              repositorios, métricas y documentación que puedo explicar en una entrevista.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PLAN ============ -->
+    <section class="section section--alt" id="plan">
+      <div class="container">
+        <header class="section__header reveal">
+          <p class="eyebrow">Plan de búsqueda laboral</p>
+          <h2>Cómo, dónde y cuándo busco trabajo</h2>
+          <p class="section__lead">
+            Buscar trabajo es un trabajo. Este es mi plan: objetivo, dedicación, puestos, empresas,
+            canales y métricas semanales.
+          </p>
+        </header>
+
+        <div class="grid-2">
+          <article class="card reveal">
+            <h3>Objetivo de búsqueda</h3>
+            <p class="quote">
+              "Conseguir un puesto de <strong>desarrollador backend o web junior</strong> en una
+              empresa tecnológica de Chile (remoto o híbrido) durante los próximos
+              <strong>4 meses</strong>, postulando de forma constante a ofertas alineadas a
+              Python, Django y SQL."
+            </p>
+            <ul class="check-list">
+              <li>Corto plazo (0-1 mes): CV, LinkedIn y portafolio publicados y revisados.</li>
+              <li>Mediano plazo (2-3 meses): 80 postulaciones enviadas y 4 entrevistas.</li>
+              <li>Largo plazo (4 meses): una oferta junior aceptada.</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <h3>Dedicación semanal</h3>
+            <table class="table">
+              <thead><tr><th>Bloque</th><th>Horario</th><th>Actividad</th></tr></thead>
+              <tbody>
+                <tr><td>Lunes a viernes</td><td>09:00 - 11:00</td><td>Búsqueda, postulaciones y CV</td></tr>
+                <tr><td>Martes y jueves</td><td>11:00 - 13:00</td><td>Estudio técnico y práctica de código</td></tr>
+                <tr><td>Viernes</td><td>11:00 - 12:00</td><td>Networking y LinkedIn</td></tr>
+                <tr><td>Sábado</td><td>10:00 - 12:00</td><td>Simulación de entrevistas</td></tr>
+              </tbody>
+            </table>
+            <p class="note">Total: 20 horas semanales dedicadas a la búsqueda y preparación.</p>
+          </article>
+        </div>
+
+        <h3 class="sub-title reveal">Puestos objetivo</h3>
+        <div class="roles">
+          <article class="role reveal">
+            <h4>Desarrollador Backend Junior</h4>
+            <p>Python · Django · ORM · APIs · PostgreSQL</p>
+            <span class="tag tag--primary">Prioridad alta</span>
+          </article>
+          <article class="role reveal">
+            <h4>Desarrollador Web Junior</h4>
+            <p>Django · HTML · CSS · Bootstrap · JavaScript</p>
+            <span class="tag tag--primary">Prioridad alta</span>
+          </article>
+          <article class="role reveal">
+            <h4>Trainee / Analista Programador</h4>
+            <p>Python · SQL · soporte al desarrollo</p>
+            <span class="tag">Prioridad media</span>
+          </article>
+          <article class="role reveal">
+            <h4>QA / Soporte con proyección</h4>
+            <p>Testing · SQL · gestión de incidencias</p>
+            <span class="tag">Plan alternativo</span>
+          </article>
+        </div>
+
+        <h3 class="sub-title reveal">Empresas objetivo</h3>
+        <div class="companies">
+          <article class="company reveal"><h4>Fintual</h4><p>Fintech chilena, Python intensivo y cultura de producto simple.</p></article>
+          <article class="company reveal"><h4>Buk</h4><p>SaaS de recursos humanos con equipos de producto consolidados.</p></article>
+          <article class="company reveal"><h4>Defontana</h4><p>Software de gestión chileno, con desarrollo de producto propio.</p></article>
+          <article class="company reveal"><h4>Xepelin / Chipax</h4><p>Fintech B2B que trabajan con datos, integraciones y servicios web.</p></article>
+          <article class="company reveal"><h4>Betterfly</h4><p>Welltech con crecimiento regional y equipos de ingeniería.</p></article>
+          <article class="company reveal"><h4>Banca y retail tech</h4><p>Banco de Chile, BancoEstado y Falabella: transformación digital a gran escala.</p></article>
+          <article class="company reveal"><h4>Startups GetOnBoard</h4><p>Ofertas tech remotas con procesos de selección ágiles.</p></article>
+          <article class="company reveal"><h4>Consultoras TI</h4><p>Puerta de entrada frecuente para perfiles trainee y junior.</p></article>
+        </div>
+
+        <div class="grid-2">
+          <article class="card reveal">
+            <h3>Canales y portales</h3>
+            <ul class="link-list">
+              <li><strong>LinkedIn Jobs:</strong> alertas con búsquedas booleanas y postulaciones directas.</li>
+              <li><strong>GetOnBoard:</strong> portal exclusivo de la industria tecnológica.</li>
+              <li><strong>Laborum:</strong> filtros por zona, nivel de experiencia y modalidad.</li>
+              <li><strong>FirstJob:</strong> ofertas para 0-2 años de experiencia y prácticas.</li>
+              <li><strong>Trabajando.com e Indeed:</strong> volumen y alertas por correo.</li>
+              <li><strong>Portales de empresa:</strong> postulación espontánea en sitios corporativos.</li>
+              <li><strong>Red de contacto:</strong> docentes, compañeros y referidos internos.</li>
+            </ul>
+          </article>
+
+          <article class="card card--accent reveal">
+            <h3>Métricas semanales</h3>
+            <ul class="metrics-list">
+              <li><strong>10</strong><span>postulaciones enviadas por semana</span></li>
+              <li><strong>5</strong><span>conexiones nuevas en LinkedIn</span></li>
+              <li><strong>2</strong><span>simulaciones de entrevista</span></li>
+              <li><strong>20%</strong><span>tasa de respuesta esperada</span></li>
+              <li><strong>100%</strong><span>de las postulaciones registradas en el tracker</span></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CV ============ -->
+    <section class="section" id="cv">
+      <div class="container">
+        <header class="section__header reveal">
+          <p class="eyebrow">Currículum Vitae</p>
+          <h2>Un CV de una página, pensado para ATS</h2>
+          <p class="section__lead">
+            Conciso, con palabras clave del puesto y enlaces al portafolio. Estas son las secciones
+            y las reglas que apliqué.
+          </p>
+        </header>
+
+        <div class="grid-2">
+          <article class="card reveal">
+            <h3>Secciones incluidas</h3>
+            <ol class="numbered">
+              <li><strong>Datos de contacto:</strong> ubicación, email, GitHub, LinkedIn y portafolio.</li>
+              <li><strong>Perfil profesional:</strong> un párrafo de 3 a 4 líneas con rol y foco.</li>
+              <li><strong>Habilidades técnicas:</strong> lenguajes, frameworks, bases de datos, herramientas y prácticas.</li>
+              <li><strong>Proyectos destacados:</strong> nombre, problema, stack y resultado medible.</li>
+              <li><strong>Formación:</strong> bootcamp de desarrollo de aplicaciones web.</li>
+              <li><strong>Idiomas:</strong> español nativo e inglés técnico.</li>
+            </ol>
+          </article>
+
+          <article class="card reveal">
+            <h3>Reglas que apliqué</h3>
+            <ul class="check-list">
+              <li>Una sola carilla, sin información irrelevante.</li>
+              <li>Palabras clave del puesto: Python, Django, SQL, Git, testing.</li>
+              <li>Resultados con métricas en lugar de solo tareas.</li>
+              <li>Enlaces directos a GitHub y al portafolio.</li>
+              <li>Sin datos personales innecesarios (sin dirección ni documentos).</li>
+              <li>Revisión de ortografía y formato consistente.</li>
+            </ul>
+            <a class="btn btn--primary" href="docs/CV_Miguel_Troncoso.pdf" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l5 5v13H7zM14 3v5h5"/></svg>
+              Descargar CV en PDF
+            </a>
+          </article>
+        </div>
+
+        <div class="preview reveal">
+          <img src="assets/img/proyecto-alke.png" alt="Panel de un proyecto del portafolio referenciado en el CV">
+          <div>
+            <h3>El CV apunta al portafolio</h3>
+            <p>
+              El CV resume, pero el portafolio demuestra. Por eso ambos documentos se enlazan:
+              quien lee el CV puede abrir el caso de estudio de Alke Wallet y revisar el código,
+              las capturas y los resultados de las pruebas.
+            </p>
+            <a class="link-arrow" href="https://migueltroncoso.github.io/modulo_8/" target="_blank" rel="noopener">Ver portafolio técnico</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ LINKEDIN ============ -->
+    <section class="section section--alt" id="linkedin">
+      <div class="container">
+        <header class="section__header reveal">
+          <p class="eyebrow">Publicación y difusión</p>
+          <h2>LinkedIn optimizado para búsquedas de reclutadores</h2>
+          <p class="section__lead">
+            Los reclutadores buscan con palabras clave y operadores booleanos. Mi perfil está
+            redactado para aparecer en esas búsquedas.
+          </p>
+        </header>
+
+        <div class="grid-2">
+          <article class="card reveal">
+            <h3>Titular y resumen</h3>
+            <div class="copybox">
+              <p id="li-headline">Desarrollador Backend Junior | Python · Django · SQL | Construyo aplicaciones web con datos íntegros</p>
+              <button class="copy-btn" data-copy="#li-headline">Copiar</button>
+            </div>
+            <div class="copybox">
+              <p id="li-about">Desarrollador web junior con foco en backend. Construyo aplicaciones con Python y Django: modelo de datos, lógica de negocio, CRUD, autenticación y pruebas automatizadas. Me interesa la integridad de los datos y la documentación técnica. Portafolio: migueltroncoso.github.io/modulo_8</p>
+              <button class="copy-btn" data-copy="#li-about">Copiar</button>
+            </div>
+            <ul class="check-list">
+              <li>URL personalizada del perfil y perfil público.</li>
+              <li>Foto y portada profesionales, con marco #OpenToWork.</li>
+              <li>Aptitudes cargadas: Python, Django, SQL, Git y testing.</li>
+              <li>Portafolio enlazado en la sección de presentación.</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <h3>Búsquedas booleanas que uso</h3>
+            <div class="code-block"><code>("desarrollador backend junior" OR "junior backend developer" OR "python developer junior") AND ("Django" OR "Python") NOT senior NOT lead</code></div>
+            <div class="code-block"><code>("desarrollador web junior") AND ("Python" OR "Django" OR "SQL") NOT senior location:Chile</code></div>
+            <div class="code-block"><code>("trainee developer" OR "desarrollador trainee") AND ("Python" OR "JavaScript") NOT senior NOT mid</code></div>
+            <p class="note">Las guardo como alertas de empleo para recibir avisos de las nuevas publicaciones.</p>
+          </article>
+        </div>
+
+        <article class="post reveal">
+          <h3>Post #OpenToWork listo para publicar</h3>
+          <div class="copybox copybox--tall">
+            <p id="li-post">Estoy en búsqueda de mi primera oportunidad como Desarrollador Junior en Python y Django. #OpenToWork
+
+Durante mi formación construí tres productos completos:
+
+- Alke Wallet: billetera digital en Django con relaciones 1:1, 1:N y M:N, actualización atómica de saldos y 36 pruebas automatizadas.
+- TaskMaster: plataforma de gestión de proyectos y tareas con autenticación y dashboard de indicadores.
+- ClickAndGo: e-commerce de consola con SQLite, arquitectura por capas y guion de pruebas P01-P19.
+
+Busco un rol junior o trainee en desarrollo backend o web, remoto o híbrido en Chile.
+Mi portafolio: migueltroncoso.github.io/modulo_8
+
+Si conoces una oportunidad o quieres conversar, te leo por mensaje directo. Gracias.</p>
+            <button class="copy-btn" data-copy="#li-post">Copiar post</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ ENTREVISTAS ============ -->
+    <section class="section" id="entrevistas">
+      <div class="container">
+        <header class="section__header reveal">
+          <p class="eyebrow">Preparación de entrevistas</p>
+          <h2>Antes, durante y después</h2>
+          <p class="section__lead">
+            Tipos de entrevista, checklist de preparación, comunicación no verbal y manejo de las
+            emociones en un proceso que puede ser largo.
+          </p>
+        </header>
+
+        <div class="grid-3">
+          <article class="card reveal">
+            <h3>Antes</h3>
+            <ul class="check-list">
+              <li>Investigar la empresa: productos, valores y competidores.</li>
+              <li>Releer el aviso y mapear cada requisito con una evidencia propia.</li>
+              <li>Repasar mi CV y preparar ejemplos por cada punto.</li>
+              <li>Preparar el elevator pitch y 3 preguntas para el entrevistador.</li>
+              <li>Definir un rango de pretensión salarial investigado.</li>
+              <li>Probar cámara, micrófono y conexión 15 minutos antes.</li>
+              <li>Vestimenta business casual y entorno ordenado.</li>
+            </ul>
+          </article>
+          <article class="card reveal">
+            <h3>Durante</h3>
+            <ul class="check-list">
+              <li>Llegar 10 minutos antes o conectarme 5 minutos antes.</li>
+              <li>Saludo cordial y contacto visual.</li>
+              <li>Escucha activa: responder lo que se pregunta y no interrumpir.</li>
+              <li>Estructurar las respuestas con la metodología STAR.</li>
+              <li>Explicar lo técnico con claridad, sin tecnicismos innecesarios.</li>
+              <li>Hacer al menos una pregunta al final del proceso.</li>
+            </ul>
+          </article>
+          <article class="card reveal">
+            <h3>Después</h3>
+            <ul class="check-list">
+              <li>Enviar un correo de agradecimiento dentro de 24 horas.</li>
+              <li>Registrar la postulación y el resultado en el tracker.</li>
+              <li>Anotar las preguntas que me costaron y prepararlas mejor.</li>
+              <li>Pedir feedback si el proceso no avanza.</li>
+              <li>Reafirmar el interés si el proceso sigue abierto.</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="grid-2">
+          <article class="card reveal">
+            <h3>Tipos de entrevista</h3>
+            <table class="table">
+              <thead><tr><th>Tipo</th><th>Cómo me preparo</th></tr></thead>
+              <tbody>
+                <tr><td>Individual</td><td>Pitch, CV y ejemplos técnicos listos.</td></tr>
+                <tr><td>Grupal</td><td>Escuchar, aportar sin monopolizar y ordenar ideas.</td></tr>
+                <tr><td>Dirigida</td><td>Respuestas concretas y estructuradas.</td></tr>
+                <tr><td>Libre</td><td>Guion propio para no divagar.</td></tr>
+                <tr><td>Mixta</td><td>Combinar claridad y ejemplos con métricas.</td></tr>
+                <tr><td>Técnica</td><td>Explicar el razonamiento en voz alta.</td></tr>
+                <tr><td>Psicolaboral</td><td>Ser genuino y concentrarme en las consignas.</td></tr>
+              </tbody>
+            </table>
+          </article>
+
+          <article class="card reveal">
+            <h3>Inteligencia emocional en la búsqueda</h3>
+            <p>La búsqueda laboral tiene incertidumbre: alegría, ansiedad, frustración y entusiasmo. Mi estrategia para gestionarla:</p>
+            <ul class="check-list">
+              <li><strong>Autoconciencia:</strong> registro cómo me siento después de cada proceso.</li>
+              <li><strong>Autorregulación:</strong> no respondo ni postulo desde la frustración.</li>
+              <li><strong>Motivación:</strong> celebro avances pequeños, como una entrevista agendada.</li>
+              <li><strong>Empatía:</strong> entiendo que el reclutador también tiene tiempos y procesos.</li>
+              <li><strong>Habilidad social:</strong> mantengo mi red activa más allá de las postulaciones.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ BANCO STAR ============ -->
+    <section class="section section--alt" id="star">
+      <div class="container">
+        <header class="section__header reveal">
+          <p class="eyebrow">Banco de respuestas</p>
+          <h2>Metodología STAR aplicada a mis proyectos</h2>
+          <p class="section__lead">
+            Situación, Tarea, Acción y Resultado. Así respondo las preguntas frecuentes usando
+            evidencia real de mis proyectos, no respuestas genéricas.
+          </p>
+        </header>
+
+        <div class="star-list">
+          <details class="star reveal" open>
+            <summary>Cuéntame sobre un desafío técnico que hayas enfrentado <span class="star__hint">Ver respuesta</span></summary>
+            <dl>
+              <dt>Situación</dt><dd>En Alke Wallet, una billetera digital en Django, los saldos debían mantenerse correctos aunque se registraran retiros, transferencias y operaciones simultáneas.</dd>
+              <dt>Tarea</dt><dd>Impedir saldos negativos y transferencias inválidas sin romper la experiencia del usuario ni la integridad de la base de datos.</dd>
+              <dt>Acción</dt><dd>Implementé la actualización de saldo dentro de una transacción atómica con <code>select_for_update</code>, validaciones de negocio en el modelo y reversa automática al eliminar un movimiento.</dd>
+              <dt>Resultado</dt><dd>36 pruebas automatizadas aprobadas, cobertura completa del CRUD y cero regresiones de saldo detectadas en la suite.</dd>
+            </dl>
+          </details>
+
+          <details class="star reveal">
+            <summary>Háblame de un proyecto del que estés orgulloso <span class="star__hint">Ver respuesta</span></summary>
+            <dl>
+              <dt>Situación</dt><dd>Necesitaba un proyecto que demostrara dominio del ORM y no solo formularios básicos.</dd>
+              <dt>Tarea</dt><dd>Construir una aplicación con relaciones 1:1, 1:N y M:N, migraciones, consultas personalizadas y pruebas.</dd>
+              <dt>Acción</dt><dd>Desarrollé Alke Wallet con cinco modelos, 6 consultas avanzadas (incluido SQL con <code>raw()</code> y cursores) y una suite de 36 pruebas.</dd>
+              <dt>Resultado</dt><dd>Es el caso de estudio de mi portafolio y el proyecto que mejor explica mi forma de trabajar con datos.</dd>
+            </dl>
+          </details>
+
+          <details class="star reveal">
+            <summary>¿Cómo manejas los errores y el feedback? <span class="star__hint">Ver respuesta</span></summary>
+            <dl>
+              <dt>Situación</dt><dd>Durante el desarrollo de los proyectos recibí observaciones sobre nombres de variables, orden del código y validaciones faltantes.</dd>
+              <dt>Tarea</dt><dd>Corregir sin romper funcionalidades ya probadas y sin repetir el mismo error.</dd>
+              <dt>Acción</dt><dd>Antes de cada cambio revisaba la suite de pruebas, corregía, volvía a ejecutar los tests y aplicaba el criterio en los siguientes módulos.</dd>
+              <dt>Resultado</dt><dd>Las correcciones quedaron cubiertas por pruebas y el código final es más legible y consistente.</dd>
+            </dl>
+          </details>
+
+          <details class="star reveal">
+            <summary>¿Cómo priorizas cuando tienes varias tareas a la vez? <span class="star__hint">Ver respuesta</span></summary>
+            <dl>
+              <dt>Situación</dt><dd>En ClickAndGo había que avanzar en varias capas a la vez: modelo, DAO, servicios y pruebas.</dd>
+              <dt>Tarea</dt><dd>Entregar un sistema funcional sin dejar funcionalidades a medias.</dd>
+              <dt>Acción</dt><dd>Trabajé por bloques con checklists, prioricé primero lo que bloqueaba al resto (modelo y DAO) y validé cada avance con el guion de pruebas P01-P19.</dd>
+              <dt>Resultado</dt><dd>El sistema quedó completo, probado y con un guion de pruebas reproducible.</dd>
+            </dl>
+          </details>
+
+          <details class="star reveal">
+            <summary>¿Cuál es tu mayor debilidad? <span class="star__hint">Ver respuesta</span></summary>
+            <dl>
+              <dt>Situación</dt><dd>Mi experiencia es junior y todavía no he trabajado en un equipo con procesos formales de producción.</dd>
+              <dt>Tarea</dt><dd>Reducir esa brecha antes y durante mi primer empleo.</dd>
+              <dt>Acción</dt><dd>Estoy aprendiendo Django REST Framework para construir APIs y tengo planificado sumar Docker y despliegue en la nube.</dd>
+              <dt>Resultado</dt><dd>Ya pasé de solo CRUD a razonar sobre integridad y pruebas. El siguiente paso es hacerlo en un entorno de equipo.</dd>
+            </dl>
+          </details>
+
+          <details class="star reveal">
+            <summary>¿Por qué quieres trabajar con nosotros? <span class="star__hint">Ver respuesta</span></summary>
+            <dl>
+              <dt>Estructura</dt><dd>Conectar el propósito de la empresa con algo concreto de mi perfil.</dd>
+              <dt>Ejemplo con una fintech</dt><dd>Valoro que usen Python de forma intensiva y que trabajen con datos financieros, donde la integridad de la información es crítica. Es exactamente el problema que trabajé en Alke Wallet.</dd>
+              <dt>Aporte</dt><dd>Puedo aportar en backend con Django, en la calidad del dato y en la documentación técnica de lo que desarrollo.</dd>
+              <dt>Cierre</dt><dd>Quiero crecer en un equipo donde pueda aprender de procesos reales y aportar desde el primer mes.</dd>
+            </dl>
+          </details>
+
+          <details class="star reveal">
+            <summary>¿Dónde te ves en cinco años? <span class="star__hint">Ver respuesta</span></summary>
+            <dl>
+              <dt>Situación</dt><dd>Hoy soy junior y quiero construir una carrera en backend.</dd>
+              <dt>Tarea</dt><dd>Definir un camino de crecimiento realista.</dd>
+              <dt>Acción</dt><dd>Mi plan es profundizar en Python, APIs y bases de datos, y ganar experiencia en producto y despliegue.</dd>
+              <dt>Resultado</dt><dd>En cinco años espero ser un desarrollador backend consolidado, capaz de liderar una funcionalidad completa y mentorizar a alguien que recién empieza.</dd>
+            </dl>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PITCH ============ -->
+    <section class="section" id="pitch">
+      <div class="container">
+        <header class="section__header reveal">
+          <p class="eyebrow">Presentación profesional</p>
+          <h2>Elevator pitch: estructura y guiones</h2>
+          <p class="section__lead">
+            Estructura: introducción, problema, solución y valor diferencial. Dos versiones listas
+            para usar en entrevistas, ferias de empleo y networking.
+          </p>
+        </header>
+
+        <div class="pitch-structure reveal">
+          <div><span>1</span><h4>Introducción</h4><p>Nombre, rol y especialidad en una frase.</p></div>
+          <div><span>2</span><h4>Problema</h4><p>Qué problema sé resolver con mis herramientas.</p></div>
+          <div><span>3</span><h4>Solución</h4><p>Qué construí y con qué tecnologías.</p></div>
+          <div><span>4</span><h4>Valor</h4><p>Qué aporto y qué busco.</p></div>
+        </div>
+
+        <div class="grid-2">
+          <article class="card reveal">
+            <h3>Versión 30 segundos</h3>
+            <div class="copybox copybox--tall">
+              <p id="pitch-30b">Hola, soy Miguel Troncoso, desarrollador web junior especializado en Python y Django. Construí una billetera digital con 36 pruebas automatizadas, una plataforma de gestión de proyectos y un e-commerce con SQLite. Me enfoco en el backend y en la integridad de los datos. Busco mi primera oportunidad junior para seguir creciendo y aportar a un equipo de producto.</p>
+              <button class="copy-btn" data-copy="#pitch-30b">Copiar</button>
+            </div>
+          </article>
+          <article class="card reveal">
+            <h3>Versión 60 segundos</h3>
+            <div class="copybox copybox--tall">
+              <p id="pitch-60">Hola, soy Miguel Troncoso. Vengo de una formación intensiva en desarrollo de software y me especialicé en backend con Python y Django.
+
+En los últimos proyectos trabajé un problema que aparece en cualquier producto con datos: mantener la información íntegra. En Alke Wallet implementé transacciones atómicas para que los saldos nunca quedaran inconsistentes, y lo respaldé con 36 pruebas automatizadas.
+
+También construí TaskMaster, una plataforma de gestión de proyectos con autenticación y dashboard, y ClickAndGo, un e-commerce con persistencia en SQLite y guion de pruebas.
+
+Lo que aporto es un perfil junior que ya trabajó el ciclo completo: modelo de datos, lógica de negocio, interfaz y pruebas. Busco un rol junior o trainee en backend o desarrollo web, remoto o híbrido en Chile.</p>
+              <button class="copy-btn" data-copy="#pitch-60">Copiar</button>
+            </div>
+          </article>
+        </div>
+
+        <div class="tips reveal">
+          <h3>Antes de decirlo en voz alta</h3>
+          <ul>
+            <li>Ensayarlo con cronómetro hasta quedar entre 30 y 60 segundos.</li>
+            <li>Grabarme una vez para revisar tono, muletillas y postura.</li>
+            <li>Adaptar el cierre según la empresa y el rol.</li>
+            <li>Tener a mano una versión escrita por si la entrevista es telefónica.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SEGUIMIENTO ============ -->
+    <section class="section section--alt" id="seguimiento">
+      <div class="container">
+        <header class="section__header reveal">
+          <p class="eyebrow">Seguimiento</p>
+          <h2>Tracker de postulaciones</h2>
+          <p class="section__lead">
+            Cada postulación queda registrada con su estado y fecha de próximo contacto, para no
+            perder oportunidades ni hacer seguimiento tarde.
+          </p>
+        </header>
+
+        <div class="table-wrap reveal">
+          <table class="table table--tracker">
+            <thead>
+              <tr><th>Empresa</th><th>Puesto</th><th>Canal</th><th>Fecha</th><th>Estado</th><th>Próximo paso</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Fintual</td><td>Backend Junior</td><td>LinkedIn</td><td>06-10</td><td><span class="pill pill--sent">Postulado</span></td><td>Seguimiento 13-10</td></tr>
+              <tr><td>Buk</td><td>Desarrollador Web Junior</td><td>GetOnBoard</td><td>07-10</td><td><span class="pill pill--interview">Entrevista</span></td><td>Entrevista 15-10</td></tr>
+              <tr><td>Defontana</td><td>Trainee Programador</td><td>Laborum</td><td>08-10</td><td><span class="pill pill--review">En revisión</span></td><td>Esperar respuesta</td></tr>
+              <tr><td>Startup GetOnBoard</td><td>Junior Python Developer</td><td>GetOnBoard</td><td>09-10</td><td><span class="pill pill--test">Prueba técnica</span></td><td>Entregar desafío 16-10</td></tr>
+              <tr><td>Consultora TI</td><td>Analista Programador</td><td>Postulación espontánea</td><td>10-10</td><td><span class="pill pill--closed">Cerrado</span></td><td>Aprendizaje registrado</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="note">Estados posibles: postulado, en revisión, entrevista, prueba técnica, oferta y cerrado.</p>
+      </div>
+    </section>
+
+    <!-- ============ PLANTILLAS ============ -->
+    <section class="section" id="plantillas">
+      <div class="container">
+        <header class="section__header reveal">
+          <p class="eyebrow">Plantillas listas para usar</p>
+          <h2>Correos y mensajes de postulación</h2>
+          <p class="section__lead">
+            Tres textos que ya uso en la búsqueda: postulación espontánea, contacto a reclutador y
+            agradecimiento posterior a la entrevista.
+          </p>
+        </header>
+
+        <div class="grid-3">
+          <article class="card reveal">
+            <h3>Postulación espontánea</h3>
+            <div class="copybox copybox--tall">
+              <p id="tpl-mail">Asunto: CV para Desarrollo | Postulación espontánea - Miguel Troncoso
+
+Hola:
+
+Mi nombre es Miguel Troncoso y soy desarrollador web junior con foco en Python y Django. Les escribo porque me gustaría formar parte de su equipo y aportar en desarrollo backend.
+
+En mi formación construí una billetera digital con 36 pruebas automatizadas, una plataforma de gestión de proyectos y un e-commerce con persistencia en SQLite. Pueden ver el detalle en mi portafolio: migueltroncoso.github.io/modulo_8
+
+Adjunto mi CV y quedo atento a cualquier oportunidad o proceso que se ajuste a mi perfil. Muchas gracias por su tiempo.
+
+Saludos cordiales,
+Miguel Troncoso</p>
+              <button class="copy-btn" data-copy="#tpl-mail">Copiar</button>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <h3>Mensaje a reclutador</h3>
+            <div class="copybox copybox--tall">
+              <p id="tpl-recrutador">Hola [Nombre], vi que eres reclutador especializado en tecnología. Soy desarrollador web junior con experiencia en Python, Django y SQL, y estoy explorando nuevas oportunidades.
+
+Me encantaría conectar y quedar disponible por si surge un rol junior o trainee que se ajuste a mi perfil. Mi portafolio: migueltroncoso.github.io/modulo_8
+
+¿Podríamos conversar? Gracias.</p>
+              <button class="copy-btn" data-copy="#tpl-recrutador">Copiar</button>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <h3>Agradecimiento post-entrevista</h3>
+            <div class="copybox copybox--tall">
+              <p id="tpl-gracias">Hola [Nombre]:
+
+Gracias por el tiempo de hoy en la entrevista para el puesto de [Puesto]. Me quedó muy clara la forma de trabajo del equipo y sigo muy interesado en la oportunidad.
+
+Quedo disponible por si necesitan algún antecedente adicional. Muchas gracias nuevamente.
+
+Saludos cordiales,
+Miguel Troncoso</p>
+              <button class="copy-btn" data-copy="#tpl-gracias">Copiar</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACTO ============ -->
+    <section class="section" id="contacto">
+      <div class="container">
+        <div class="contact reveal">
+          <div>
+            <p class="eyebrow">Contacto</p>
+            <h2>Estoy disponible</h2>
+            <p>
+              Busco un rol <strong>junior o trainee</strong> en desarrollo backend o web. Si tu
+              equipo está contratando o quieres darme feedback sobre este kit, escríbeme.
+            </p>
+            <ul class="contact__list">
+              <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Zm8 7.2 8-4.7V7l-8 4.7L4 7v.5l8 4.7Z"/></svg><a href="mailto:miguel.troncoso36@gmail.com">miguel.troncoso36@gmail.com</a></li>
+              <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.03a9.5 9.5 0 0 1 5 0c1.91-1.3 2.75-1.03 2.75-1.03.55 1.38.2 2.4.1 2.65.64.7 1.03 1.6 1.03 2.69 0 3.85-2.34 4.7-4.57 4.95.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg><a href="https://github.com/MiguelTroncoso" target="_blank" rel="noopener">github.com/MiguelTroncoso</a></li>
+              <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm7 0h3.8v1.7h.05c.53-.95 1.83-1.95 3.77-1.95 4.03 0 4.78 2.5 4.78 5.75V21h-4v-5.6c0-1.34-.03-3.06-1.9-3.06-1.9 0-2.2 1.45-2.2 2.96V21h-4V9Z"/></svg><a href="https://www.linkedin.com/in/miguel-troncoso/" target="_blank" rel="noopener">linkedin.com/in/miguel-troncoso</a></li>
+              <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></svg>Santiago, Chile · modalidad remota o híbrida</li>
+            </ul>
+          </div>
+          <div class="contact__cta">
+            <a class="btn btn--primary btn--lg" href="mailto:miguel.troncoso36@gmail.com?subject=Oportunidad%20junior%20-%20Desarrollador%20Python%2FDjango">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Zm8 7.2 8-4.7V7l-8 4.7L4 7v.5l8 4.7Z"/></svg>
+              Escríbeme
+            </a>
+            <a class="btn btn--ghost btn--lg" href="docs/Guia_Entrevistas_Miguel_Troncoso.pdf" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 21h14"/></svg>
+              Guía de entrevistas
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__inner">
+      <p><strong>Miguel Troncoso</strong> · Kit de Empleabilidad Digital · Módulo 9 — Desarrollo de empleabilidad en la industria digital.</p>
+      <p class="footer__links">
+        <a href="https://github.com/MiguelTroncoso" target="_blank" rel="noopener">GitHub</a> ·
+        <a href="https://www.linkedin.com/in/miguel-troncoso/" target="_blank" rel="noopener">LinkedIn</a> ·
+        <a href="mailto:miguel.troncoso36@gmail.com">Email</a>
+      </p>
+      <p class="footer__note">© <span id="year">2026</span> · Hecho con HTML, CSS y JavaScript.</p>
+    </div>
+  </footer>
+
+  <button class="to-top" id="to-top" aria-label="Volver arriba">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 15 6-6 6 6"/></svg>
+  </button>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+# Sistema operativo / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Temporales de generación
+tmp/
+__pycache__/
+*.py[cod]
+
+# Entornos virtuales (el sitio es estático)
+.venv/
+venv/

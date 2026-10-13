@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="Avatar profesional de Miguel Troncoso">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101a2e"/>
+      <stop offset="1" stop-color="#0b3b39"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2dd4a7"/>
+      <stop offset="1" stop-color="#4f8cff"/>
+    </linearGradient>
+  </defs>
+  <circle cx="128" cy="128" r="128" fill="url(#bg)"/>
+  <circle cx="128" cy="128" r="118" fill="none" stroke="#2dd4a7" stroke-opacity="0.35" stroke-width="2"/>
+  <!-- Motivo de código -->
+  <g fill="none" stroke="#4f8cff" stroke-opacity="0.55" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M62 96 L44 128 L62 160"/>
+    <path d="M194 96 L212 128 L194 160"/>
+    <path d="M146 78 L118 178"/>
+  </g>
+  <!-- Iniciales -->
+  <text x="128" y="150" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="86" font-weight="800" fill="url(#accent)">MT</text>
+</svg>
